@@ -1,0 +1,5 @@
+CREATE TABLE all_hands (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    hands VARCHAR(200) UNIQUE NOT NULL ,
+    card_value BIGINT NOT NULL
+);  
